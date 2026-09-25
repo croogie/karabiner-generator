@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="theme-color" content="#080808" />
+    <title>Karabiner-Elements Shortcut Generator</title>
+    <meta
+      name="description"
+      content="Create a Karabiner-Elements launcher rule with your choice of trigger key, app, URL, or command."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23080808'/%3E%3Cpath d='M13 21h38v22H13z' fill='none' stroke='%23f5c451' stroke-width='4' rx='4'/%3E%3Cpath d='M23 32h18' stroke='%23f5c451' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <p class="eyebrow">Karabiner-Elements · rule generator</p>
+      <h1>Your <span>keys.</span><br />Your actions.</h1>
+      <p class="intro">
+        Create separate trigger groups for apps, URIs, and commands. Each group
+        becomes its own Karabiner-Elements rule.
+      </p>
+
+      <section class="panel" aria-labelledby="shortcuts-title">
+        <div class="panel-head">
+          <div>
+            <h2 id="shortcuts-title">Trigger groups</h2>
+            <p class="sub">Each group has its own trigger and shortcuts.</p>
+          </div>
+          <div class="head-actions">
+            <button
+              id="toggle-import"
+              class="btn secondary"
+              type="button"
+              aria-controls="import-panel"
+              aria-expanded="false"
+            >
+              Import rule
+            </button>
+            <span id="count" class="count">1 group</span>
+          </div>
+        </div>
+        <div class="setup">
+          <p class="setup-note">
+            <strong>Before testing:</strong> In Karabiner-Elements → Devices,
+            enable <strong>Modify events</strong> for the keyboard you are
+            actually using.
+          </p>
+        </div>
+        <div id="import-panel" class="import" hidden>
+          <h3>Import one rule</h3>
+          <p>
+            In Karabiner-Elements, open the launcher rule, select Edit, then
+            copy and paste its JSON here. Import replaces the groups currently
+            shown in this form with one editable group.
+          </p>
+          <label for="import-json">Rule JSON</label>
+          <textarea
+            id="import-json"
+            placeholder='{"description":"Tab launcher","manipulators":[...]}'
+            spellcheck="false"
+            autocapitalize="off"
+            autocomplete="off"
+          ></textarea>
+          <button id="import-rule" class="btn secondary" type="button">
+            Import rule →
+          </button>
+        </div>
+        <div id="groups" class="groups"></div>
+        <div class="actions">
+          <button id="add-group" class="btn secondary" type="button">
+            ＋ Add trigger group
+          </button>
+          <div class="action-right">
+            <button id="generate" class="btn primary" type="button">
+              Generate rules →
+            </button>
+          </div>
+        </div>
+      </section>
+      <p id="feedback" class="feedback" role="status" aria-live="polite"></p>
+
+      <section
+        id="output"
+        class="panel output"
+        aria-labelledby="output-title"
+        hidden
+      >
+        <div class="panel-head">
+          <div>
+            <h2 id="output-title">Your rules are ready</h2>
+            <p id="output-instructions" class="sub"></p>
+          </div>
+          <div class="output-actions">
+            <button id="download" class="btn secondary" type="button">
+              Download JSON ↓
+            </button>
+          </div>
+        </div>
+        <div id="rule-outputs"></div>
+      </section>
+      <p class="hint">
+        “Name” uses <code>open -a 'App name'</code>. “URI” opens a link such as
+        <code>superwhisper://record</code>. “Command” runs exactly what you
+        enter, such as <code>/path/to/script test</code>; quote paths with
+        spaces. You can also use a Bundle ID or app path from
+        Karabiner-EventViewer → Frontmost Application. Your shortcuts stay in
+        this browser.
+      </p>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
