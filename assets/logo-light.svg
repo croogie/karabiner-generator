@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 457 441" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:affinity="https://www.affinity.studio/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,1,-471.3913,-968.847821)">
+        <g id="Favicon" transform="matrix(0.989177,0,0,0.962882,206.291733,809.009393)">
+            <rect x="268" y="166" width="462" height="458" style="fill:none;"/>
+            <g transform="matrix(0.82,0,0,0.82,89.547046,71.193469)">
+                <g>
+                    <g transform="matrix(1.010941,0,0,1.038549,-208.548754,-333.383905)">
+                        <path d="M498.391,895.848L600,895.848L600,729L498.484,556L498.391,895.848Z" style="fill:#080808;"/>
+                    </g>
+                    <g transform="matrix(1.010941,0,0,1.038549,-208.548754,-333.383905)">
+                        <path d="M698.391,895.848L758.477,793.721L600,507.848L498.484,556L698.391,895.848Z" style="fill:#080808;stroke:#f4f3f1;stroke-width:0.3px;"/>
+                    </g>
+                    <g transform="matrix(1.010941,0,0,1.038549,-208.548754,-333.383905)">
+                        <path d="M798.391,725.924L758.477,793.721L698.113,684.481L798.251,508.58L798.391,725.924Z" style="fill:#080808;stroke:#f4f3f1;stroke-width:0.3px;"/>
+                    </g>
+                    <g transform="matrix(1.010941,0,0,1.038549,-208.548754,-333.383905)">
+                        <path d="M798.391,895.848L898.391,895.848L898.391,556L798.391,507.848L798.391,895.848Z" style="fill:#080808;stroke:#f4f3f1;stroke-width:0.3px;"/>
+                    </g>
+                </g>
+                <g id="Shadows" transform="matrix(1.010941,0,0,1.038549,-7.986871,-24.054422)">
+                    <g>
+                        <g transform="matrix(1,0,0,1,273,-297)">
+                            <path d="M129,743C79.76,668.38 34.546,566.518 28,562C15.892,528.653 129,729 129,729L129,743Z" style="fill:rgb(84,84,84);"/>
+                        </g>
+                        <g transform="matrix(1,0,0,1,273,-297)">
+                            <path d="M318,740C319.344,636.32 326.633,531.263 327,508C326.88,714.847 327,726 327,726L318,740Z" style="fill:rgb(84,84,84);"/>
+                        </g>
+                        <g transform="matrix(1,0,0,1,273,-297)">
+                            <path d="M286,790C286,790 240.924,689.926 232,674C223.29,688.251 227,684 227,684L286,790Z" style="fill:rgb(84,84,84);"/>
+                        </g>
+                    </g>
+                </g>
+                <g id="M---kontury-origami" affinity:id="M — kontury origami" transform="matrix(1.010941,0,0,1.038549,295.295405,194.040816)">
+                    <g id="paper-folds">
+                        <path id="left-fold" d="M102,0L102,221.4" style="fill:none;fill-rule:nonzero;stroke:rgb(110,110,110);stroke-width:0.65px;stroke-miterlimit:4;"/>
+                        <path id="right-paper-edge" d="M300,218L400,48" style="fill:none;fill-rule:nonzero;stroke:rgb(110,110,110);stroke-width:0.65px;stroke-miterlimit:4;"/>
+                    </g>
+                    <path id="right-upper-edge" d="M200,176L300,0L400,48" style="fill:none;fill-rule:nonzero;stroke:rgb(110,110,110);stroke-width:2.4px;stroke-miterlimit:4;"/>
+                    <path id="right-leg" d="M400,48L400,388L300,388L300,0" style="fill:none;fill-rule:nonzero;stroke:rgb(110,110,110);stroke-width:2.4px;stroke-miterlimit:4;"/>
+                    <path id="left-leg" d="M0,48L0,388L102,388L102,221.4" style="fill:none;fill-rule:nonzero;stroke:rgb(110,110,110);stroke-width:2.4px;stroke-miterlimit:4;"/>
+                    <path id="front-ribbon" d="M0,48L102,0L260,286L200,388L0,48Z" style="fill:none;fill-rule:nonzero;stroke:rgb(110,110,110);stroke-width:2.4px;stroke-miterlimit:4;"/>
+                    <path id="right-visible-diagonal" d="M260,286L300,218" style="fill:none;fill-rule:nonzero;stroke:rgb(110,110,110);stroke-width:2.4px;stroke-miterlimit:4;"/>
+                </g>
+            </g>
+        </g>
+        <g id="ŚWITOŃ---edytowalny-tekst" affinity:id="ŚWITOŃ — edytowalny tekst">
+        </g>
+    </g>
+</svg>
